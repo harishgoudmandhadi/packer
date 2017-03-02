@@ -37,8 +37,9 @@
       "apt-get update",
       "apt-get upgrade -y",
       "apt-get install nodejs npm -y",
-      
+
       "npm install -g express",
+      "wget https://raw.githubusercontent.com/ned1313/packer/master/examples/azure/files/index.js",
 
 
       "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
